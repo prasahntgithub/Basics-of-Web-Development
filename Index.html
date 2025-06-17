@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Profile Card</title>
+  <link rel="stylesheet" href="Style.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <h1>Hello, Developer! 👨‍💻</h1>
+      <p>Enter your name below and click submit to personalize this card.</p>
+      
+      <form id="nameForm">
+        <input type="text" id="username" placeholder="Enter your name" required />
+        <button type="submit">Submit</button>
+      </form>
+
+      <div id="greeting" class="greeting hidden"></div>
+    </section>
+  </main>
+
+  <script src="Script.js"></script>
+</body>
+</html>
